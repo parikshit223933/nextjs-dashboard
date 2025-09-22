@@ -4,6 +4,7 @@ import postgres from 'postgres';
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
+
 // async function seedUsers() {
 //   await sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
 //   await sql`
